@@ -8,4 +8,4 @@ Read and write memory external process with using Win api. supports working with
 
 - **Module searcher**: Getting the base addresses of modules (for example, `GameAssembly.dll`).
 - **Supports 32/64 бит**: works with 32-bit, and with 64-bit process.
-- **Integration with NT Kernel**: Using low-level Win api functions to work with memory `ReadProcessMemory`, `WriteProcessMemory` they all use `NtReadVirtualMemory` and `NtWriteVirtualMemory` internally).
+- **Integration with NT Kernel**: Using low-level Win api functions to work with memory `ReadProcessMemory`, `WriteProcessMemory` (they all use `NtReadVirtualMemory` and `NtWriteVirtualMemory` internally).
