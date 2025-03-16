@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="PropertySheet.props" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{058ad324-d3dd-4151-93f3-a4c8b8cdb4df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\memory">
+      <UniqueIdentifier>{4a7899a8-9f60-4d4d-8c8e-5d7dd93dba91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\helper">
+      <UniqueIdentifier>{b80bc77a-be71-42fe-9688-07ef9cd1ce45}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="memory\processHandler.cpp">
+      <Filter>source\memory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\error.h">
+      <Filter>source\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\processHandler.h">
+      <Filter>source\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\processMemory.h">
+      <Filter>source\memory</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="MIT.txt" />
+  </ItemGroup>
+</Project>
